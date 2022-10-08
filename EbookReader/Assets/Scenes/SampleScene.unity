@@ -1,0 +1,1943 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &419387519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 419387520}
+  - component: {fileID: 419387522}
+  - component: {fileID: 419387521}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &419387520
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419387519}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1084292111}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &419387521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419387519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &419387522
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419387519}
+  m_CullTransparentMesh: 1
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  - component: {fileID: 519420033}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.15294118, g: 0.15294118, b: 0.22745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1563657891}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430434f8cd584df4db8eba090150bac0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  webViewObject: {fileID: 774922436}
+  text: {fileID: 774922434}
+  htmlText: "<?xml version='1.0' encoding='utf-8'?> <!DOCTYPE html> <html xmlns=\"http://www.w3.org/1999/xhtml\"
+    xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:prefix=\"z3998: http://www.daisy.org/z3998/2012/vocab/structure/#\"
+    lang=\"en\" xml:lang=\"en\">   <head>     <title>KXOSW </title>     <link href=\"style/style.css\"
+    rel=\"stylesheet\" type=\"text/css\"/>   </head>   <body dir=\"auto\"><h1>KXOSW
+    </h1><p>F.C.YEE </p><p>WITH  AVATAR CO-CREATOR MICHAEL DANTE DIMARTINO </p><p>AMULET
+    BOOKS - NEW YORK </p><span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\"
+    title=\"3\" id=\"3\"/><p>PUBLISHER\u2019S NOTE: This is a work of fiction. Names,
+    characters, places, and incidents are either the product of the author\u2019s
+    imagination or used fictitiously, and any resemblance to actual persons, living
+    or dead, business establishments, events, or locales is entirely coincidental.
+    </p><p>Cataloging-in-Publication Data has been applied for and may be obtained
+    from the Library of Congress. </p><p>ISBN 978-1-4197-3505-9 elSBN 978-1-68335-798-8
+    </p><p>\xA9 2020 Viacom International Inc. All Rights Reserved. Nickelodeon,
+    Nickelodeon Avatar: The Last Airbender, and all related titles, logos, and characters
+    are trademarks of Viacom Internation Inc. </p><p>Cover illustrations 2020 Jung
+    Shan Chang Book design by Brenda E. Angelilli </p><p>Published in 2020 by Amulet
+    Books, an imprint of ABRAMS. All rights reserved. No portion of this book may
+    be reproduced, stored in a retrieval system, or transmitted in any form or by
+    any means, mechanical, electronic, photocopying, recording, or otherwise, without
+    written permission from the publisher. </p><p>Amulet Books are available at special
+    discounts when purchased in quantity for premiums and promotions as well as fundraising
+    or educational use. Special editions can also be created to specification. Lor
+    details, contact specialsales@abramsbooks.com or the address below. </p><p>Amulet
+    Books is a registered trademark of Harry N. Abrams, Inc. </p><p>O </p><p>ABRAMS 
+    The Art of Books </p><span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\"
+    title=\"4\" id=\"4\"/><p>195 Broadway, New York, NY 10007 abramsbooks. com </p><span
+    xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"5\"
+    id=\"5\"/><span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\"
+    title=\"6\" id=\"6\"/><h4>PROLOGUE </h4><p>\u201CBoy!\u201D </p><p>Yun clawed
+    at his own neck until he drew blood. The feeling of slime and teeth lingered
+    on his skin. </p><p>\u201CBoy! Stop your sniveling!\u201D </p><p>He remembered
+    Jianzhu lighting the incense. He remembered the stickysweet smell and the deadness
+    it created in his limbs. Stingjelly venom, his training told him. He\u2019d only
+    just started his doses with Sifu Amak. </p><p>Yun blinked and tried to make sense
+    of his surroundings. His hands clawed into wet, porous moss when it should have
+    been the dust of the mining town under his fingernails. He was in a mangrove
+    forest. The sky was the color of acid. </p><p>He crawled around, the juices of
+    a swamp sucking at his knees. The trunks of the leafless trees twisted and gnarled
+    as high as hills, barely lighter in color than silhouettes. Screened by the loose
+    weave of branches, a great glowing eye stared at him. </p><p>It was the eye that
+    had spoken. The eye that told him he wasn\u2019t the\u2014 </p><p>A pain, terrible
+    and familiar, wracked his stomach and folded him in two. His forearms splashed
+    into the swamp water. The landscape around him began to shake, not from earthbending
+    but from something rawer and more uncontrollable. </p><p>He wasn\u2019t. End
+    of sentence. He was nothing. </p><p>The shallow water danced, raindrops on a
+    drum, spiking into geysers. The shoreline swayed, rattling the trees, bucking
+    and clashing them together like the antlers of beasts locked in combat. Yun dashed
+    his head against the ground in a frenzied corruption of a student bowing to their
+    master. </p><p>Jianzhu.  His entire mind was a screamed name, a single screeching
+    tone on a broken flute. His skull thudded against the brackish mud.  Jianzhu.
+    </p>         <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0007.png\"
+    alt=\"Picture #7\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"7\" id=\"7\"/><p>\u201CStop it, you miserable
+    little brat!\u201D the eye roared. Despite its anger it shrank back from him,
+    afraid of his throes of agony. The ground squeezed and fluttered, the heartbeat
+    of a man falling to his death, pounding louder and louder before the final impact.
+    </p><p>Yun  wanted  it to stop. He wanted the anguish to end. It hurt so much,
+    to see everything he\u2019d worked for shredded to sparks and dust. It was destroying
+    him from the inside. </p><p>So let it out. </p><p>The whisper came to him in
+    his own voice. Not the eye\u2019s. Not Jianzhu\u2019s. </p><p>Put the pain outside.
+    Put it somewhere else. </p><p>On someone else. </p><p>The rip started at his
+    feet, a pinprick in overstretched silk. The tear birthed itself in the water
+    and raced into the banks of the earth like lightning cracking the sky. The ground
+    split apart, releasing all its quaking tension in one swift cataclysmic burst.
+    </p><p>And then . . . stillness. </p><p>Yun could breathe again. He could see.
+    The trembling had worn itself out, spent its energy in the creation of a long
+    lesion in the ground, an unnatural wound upon the landscape. Swamp water poured
+    into the injury, masking a depth he knew he shouldn\u2019t explore. </p><p>Things
+    were so much clearer when there was relief. Yun used this moment of respite to
+    look around. The musty grove resembled no forest he\u2019d ever seen. The dim
+    light in the sky came from no discernible sun. This place was a hazy reflection
+    of a real landscape, painted with ink that had been thinned too much. </p><p>I\u2019m
+    in the Spirit World. </p><p>He backed away from the ravine that lay before him,
+    not wanting to be dragged in by the force of the water\u2019s flow. Turning around,
+    he pulled himself to drier footing using the exposed roots of a leathery tree.
+    The air smelled like sulfur and rot. </p><p>Master Kelsang had told him about
+    the Spirit World. It was supposed to be a beautiful, wild place, full of creatures
+    beyond imagining. The realm of the spirits was a mirror held up to its visitors,
+    a reflection of your emotions, a reality that shaped around your own spirit\u2019s
+    intangible projection. </p><p>Yun flexed his fingers, finding them as solid as
+    they could be. He wondered if the gentle monk had ever explored a nightmarish
+    bog like this </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0008.png\" alt=\"Picture #8\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"8\"
+    id=\"8\"/><p>one. They\u2019d never talked about what happened if you entered
+    the Spirit World while you were still in your body. </p><p>The rustle of branches
+    gave him a start and reminded him he wasn\u2019t alone. The eye. It watched carefully
+    from the darkness of the forest, circling him on translucent appendages studded
+    with what he knew to be human teeth. He\u2019d felt its bite back in the mountains
+    when it had sampled his blood. </p><p>A pulsing panic rushed through the chambers
+    of his heart. Yun knew he was on borrowed time. He tried to remember what Jianzhu
+    had called the spirit. \u201CFather . . . Glowworm?\u201D </p><p>The eye suddenly
+    rushed closer, socketing itself in the gap between two nearby trees. Yun shrieked
+    and fell backward on his elbows. He\u2019d made a mistake. A crucial, invisible
+    barrier had been broken by saying the name aloud, and now he was more connected
+    and vulnerable to it than ever. </p><p>\u201CI call myself that,\u201D the spirit
+    said. Father Glowworm\u2019s pupil darted around unnervingly, the iris squeezing
+    narrower. Its gaze had the heft of a probing tongue. \u201CNow, child, I believe
+    you owe me your name.\u201D </p><p>Like a fool, Yun had fallen into the role
+    of the bumpkin from cautionary Earth Kingdom folktales, the poor field hand or
+    woodcutter who fell under a curse or was simply eaten. He could only think of
+    how he\u2019d be consumed. Rasped into pulp, maybe, and absorbed into the slime.
+    </p><p>\u201CMy name is Yun.\u201D His palms were slick with fear. In some of
+    those tales, the stupid boy survived through sheer pluck. Yun was already prey;
+    his only chance was to become interesting prey. \u201CI\u2014I\u2014\u201D </p><p>His
+    poise was failing him. His slickness under pressure that had impressed the Fire
+    Lord and the Earth King, the chieftains of the Water Tribes and Head Abbots of
+    the Air Temples alike, was nowhere to be found. Maybe Avatar Yun had the confidence
+    to talk his way out of this, but no such person existed anymore. </p><p>Father
+    Glowworm shifted in the trees, and Yun knew he was going to die if he didn\u2019t
+    say something quick. His mind leaped back to the moments in his past when his
+    fate was cradled in someone else\u2019s hands. </p><p>\u201CI wish to submit
+    myself for consideration as your student!\u201D he yelped. </p><p>Was there a
+    way for a single eye to look surprised? The forest was silent except for the
+    rush of falling water. \u201CI . . . kneel before you as a humble spiritual traveler
+    seeking answers,\u201D Yun said. He shifted around so his </p>         <div style=\"width:
+    99.68627450980392%;\">         <img src=\"images/img_0009.png\" alt=\"Picture
+    #9\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"9\" id=\"9\"/><p>posture matched his words. \u201CPlease
+    teach me the ways of the Spirit World. I beseech you.\u201D </p><p>Father Glowworm
+    burst into laughter. It had no lids to narrow, but its sphere tilted upward in
+    the universal direction of amusement. \u201CBoy, do you think this is a game?\u201D
+    </p><p>Everything is a game,  Yun thought, trying to still his shaking. /  will
+    draw this one out as far as I can. I will survive a turn longer. </p><p>There
+    was no more Avatar Yun. He would have to be Yun the swindler again. \u201CI can
+    hardly be faulted for wanting to ask questions of a spirit wiser than the best
+    of humanity.\u201D  When in doubt, flatter the mark.  \u201CThe Earth Kingdom\u2019s
+    finest sages couldn\u2019t identify the Avatar for sixteen years. And yet you
+    did it in a matter of seconds.\u201D </p><p>\u201CHmph. You don\u2019t fight
+    the kind of battle Kuruk and I did and not be able to recognize your opponent\u2019s
+    spirit. I could already feel Jianzhu bringing his reincarnation closer to one
+    of my tunnels. It had to be one of you children.\u201D </p><p>Yun\u2019s ears
+    perked at the word  tunnels.  \u201CYou have routes to the human world? More
+    than one?\u201D </p><p>Father Glowworm laughed again. \u201CI know what you\u2019re
+    doing,\u201D it sneered. \u201CAnd it doesn\u2019t impress me. Yes, I can create
+    passages to the human realm. No, you will not trick or convince me into sending
+    you back. You\u2019re not the bridge between spirits and humans, boy. You\u2019re
+    the stone that needed to be pitched away by the sculptor. The impurity in the
+    ore. I\u2019ve tasted your blood, and you\u2019re nothing. You\u2019re not even
+    worth this conversation.\u201D </p><p>The eye crept closer. \u201CI can tell
+    how upset you are by the truth,\u201D it said in a soothing sweet tone. \u201CDon\u2019t
+    be. Who needs Avatarhood? You will find your own use, and your own immortality.
+    Once I strengthen myself on your blood, part of your essence will exist within
+    me, forever.\u201D </p><p>The problem with any game was that eventually, the
+    opponent decided to stop playing. Father Glowworm suddenly rushed Yun, spiraling
+    through the forest, tendrils of slime grasping and parting the trees like the
+    beads of a curtain. </p><p>\u201CNow, be grateful!\u201D the spirit roared. \u201CFor
+    we are about to become one!\u201D </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0010.png\" alt=\"Picture #10\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"10\"
+    id=\"10\"/><h4>UNFINISHED BUSINESS </h4><p>Brother Po once told Kuji the nickname
+    for the  dao  sword was \u201Call men\u2019s courage.\u201D Hold the sturdy chopping
+    blade that let you hack away at a foe with abandon, and you\u2019d feel braver
+    immediately. </p><p>Kuji did not feel braver as he gripped the haft of his  dao 
+    with clammy palms and watched the door. And his blade did not feel very sturdy.
+    It was a rusted, chipped specimen that seemed like it would shatter if he waved
+    it in the air too vigorously. As the most junior member of the Triad of the Golden
+    Wing, he\u2019d had to wait at the back of the line as weapons were passed out
+    in turn. This sword had come from the bottom of the crate. </p><p>\u201CNow you\u2019re
+    a real soldier, eh?\u201D someone had joked at the time. \u201CNot like the rest
+    of us hatchet men.\u201D </p><p>Brother Po stood by the doorway holding his small
+    axe, the favored weapon of most of the Triad\u2019s seasoned fighters. He looked
+    calm on the outside, but Kuji could see his throat bobbing up and down repeatedly
+    as he swallowed, the same way it did when he was going for a big money play in
+    Pai Sho. </p><p>If Kuji had confidence in anything for protection, it was in
+    his gang\u2019s turf\u2014Loongkau City Block was practically a fortress. On
+    the surface, Loongkau looked no different than its neighboring districts of Ba
+    Sing Se\u2019s Lower Ring. The visible portion on the block rose a haphazard
+    couple of stories into the air like a budding mushroom, in defiance of gravity
+    and sound architecture. </p><p>But it was an open secret that the complex extended
+    illegally into the ground layer by layer, far below the surface. Each level had
+    been dug out below the previous one without a solid plan or understanding of
+    safety, shored up by using only improvised supports of wood scrap, mud brick,
+    bits of rusty scavenged metal. And yet Loongkau held solid without caving in,
+    possibly with the aid of the spirits. </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0011.png\" alt=\"Picture #11\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"11\"
+    id=\"11\"/><p>The inside of the block was a knot of twists and turns, staircases
+    and empty shafts. Hives of squalid apartments squeezed the available pathways
+    into narrow choke points. Loongkau was littered with natural traps like the room
+    where Kuji and Po waited, which was one of the reasons why lawmen never went
+    inside the City Block. </p><p>Until now. The boss had gotten a tip that the Golden
+    Wing\u2019s stronghold was going to be hit this very day. Every brother was to
+    take up positions until the threat was gone. Kuji didn\u2019t know what kind
+    of enemy could get his elders so riled up. By his guess it would have taken more
+    lawmen than the Lower Ring possessed in order to lay siege to Loongkau. </p><p>Regardless,
+    the plan was sound. Anyone trying to make it to the lower floors would have to
+    file through a narrow bottleneck that ran by this room. Kuji and Ning could get
+    the drop on an intruder, two-on-one. </p><p>And it was unlikely they\u2019d see
+    action, Kuji reminded himself. The level above was being prowled by Throatcutter
+    Gong, the boss\u2019s best assassin. Gong could stalk and kill a mongoose lizard
+    in its own jungle lair. The number of heads he\u2019d taken could have filled
+    a haybarn\u2014 </p><p>A crash came from one floor up. There was no sound of
+    a voice accompanying it. The little apartment began to feel less their turf to
+    hold and more a box confining them like animals in a crate. </p><p>Po gestured
+    with his hatchet. \u201CWe\u2019ll hear them coming down the stairs,\u201D he
+    whispered. \u201CThat\u2019s when we strike.\u201D </p><p>Kuji tilted his ear
+    in that direction. He was so desperate to hear any approaching signal that he
+    lost his balance and stumbled. Po rolled his eyes. \u201CToo loud,\u201D he hissed.
+    </p><p>As if to prove his point, someone flew through the doorway, snapping the
+    hinges, and collided with Kuji. He shrieked and flailed with his  dao  but at
+    best managed to smack the person in the head with his pommel. Po grabbed the
+    attacker and raised his hatchet to strike, but checked his swing at the last
+    second. </p><p>It was Throatcutter Gong, unconscious and bleeding. His wrists
+    bent the wrong way and his ankles were bound with his own garrote wire. \u201CBrother
+    Gong!\u201D Po shouted, forgetting his own lesson in stealth. \u201CWhat happened?\u201D
+    </p><p>Prom the wall opposite the hallway they were supposed to be focusing on,
+    a pair of gauntleted arms burst through the brick. They wrapped around Po\u2019s
+    neck from behind in a chokehold, cutting off his words. Kuji saw his </p>        
+    <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0012.png\"
+    alt=\"Picture #12\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"12\" id=\"12\"/><p>elder\u2019s eyes go white
+    with terror before Po was pulled out of the room straight through the wall. </p><p>Kuji
+    stared at the emptiness in stupefied disbelief Po was a big man, and in a blink,
+    he\u2019d been taken like a raven eagle\u2019s prey. The hole he disappeared
+    through revealed only darkness. </p><p>Outside, the floorboards creaked from
+    the weight of a person walking, as if complete silence were a cloak the enemy
+    could wear and discard at will. The treading of heavy boots came closer and closer.
+    </p><p>The doorway filled, blacking out the faint light from the hall, and a
+    tall, incredibly tall, figure stepped inside. A thin line of blood trickled from
+    its throat, as if it had been beheaded and glued back together. A dress of green
+    silk billowed underneath the wound. Its face was a white mask, and its eyes were
+    monstrous streaks of red. </p><p>Trembling, Kuji raised his blade. He moved so
+    slowly it felt like he was swimming through mud. The creature watched him swing
+    his sword, its eyes on the metal, and somehow, he knew it was fully capable of
+    putting a stop to the action. If it cared to. </p><p>The edge of the  dao  bit
+    into his opponent\u2019s shoulder. There was a snapping noise, and a sudden pain
+    lashed his cheek. The sword had broken, the top half bouncing back in Kuji\u2019s
+    face. </p><p>It was a spirit. It had to be. It was a spirit that could pass through
+    walls, a ghost that could float over floors, a beast impervious to blades. Kuji
+    dropped the handle of the useless sword. His mother had told him once that invoking
+    the Avatar could safeguard him from evil. He\u2019d known as a child she was
+    making up stories. But that didn\u2019t mean he couldn\u2019t decide to believe
+    them right now. Right now, he believed harder than he believed anything in his
+    life. </p><p>\u201CThe Avatar protect me,\u201D he whispered while he could still
+    speak. He fell on his behind and scrambled to the corner of the room, blanketed
+    completely by the spirit\u2019s long shadow. \u201CYangchen protect me!\u201D
+    </p><p>The spirit woman followed him and lowered her red-and-white face to his.
+    A human would have passed some kind of judgment on Kuji as he cowered like this.
+    The cold disregard in her eyes was worse than any pity or sadistic amusement.
+    </p><p>\u201CYangchen isn\u2019t here right now,\u201D she said in a rich, commanding
+    voice that would have been beautiful had she not held such clear indifference
+    for </p>         <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0013.png\"
+    alt=\"Picture #13\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"13\" id=\"13\"/><p>his life. \u201CI am.\u201D
+    </p><p>Kuji sobbed as a large, powerful hand gripped him by the chin with thumb
+    and forefinger. It was gentle but gave the assurance that she could rip his jaw
+    clean off his head if she so desired. The woman tilted his face upward. \u201CNow
+    tell me where I can find your boss.\u201D </p><p>Kyoshi\u2019s neck itched terribly.
+    The garrote had been coated in ground glass, and though she\u2019d managed to
+    avoid getting cut too deeply, sharp little fragments still vexed her skin. It
+    served her right for being so sloppy. The gang\u2019s wire man had been stealthy,
+    but not at the level of the company she used to keep in her  daofei  days. </p><p>Speaking
+    of which, she\u2019d taken a risk by not incapacitating the boy like she\u2019d
+    done his elders. But he\u2019d reminded her of Lek. The way his stupid babyface
+    tried to arrange itself in a mask of hardness, his obvious need for the approval
+    of his sworn elder brothers. His sheer, idiotic bravery. He was too young to
+    be running with a gang in the slums of Ba Sing Se. </p><p>No more exceptions
+    for today,  she told herself as she stepped over rusting junk and debris. She
+    was still in the habit of labeling anyone roughly her age as boys and girls,
+    and the language made her inclined toward softness, which was dangerous. Certainly
+    no one would show Kyoshi grace because she was only nearing eighteen. The Avatar
+    did not have the luxury of being a child. </p><p>She pushed through a hallway
+    barely wider than she was. Only the slightest cracks of illumination came through
+    the walls. Glowing crystals were expensive, and candles were a fire risk, making
+    light a premium in Loongkau. Networks of pipes dripped above her, pattering on
+    the gilded headdress she wore despite the cramped environment. She\u2019d learned
+    to account for the height it added, and having to stoop had been a fact of her
+    life since childhood. </p><p>The smell of human density wafted through the corridors,
+    a concoction of sweat and drying paint. She could only imagine what the lower
+    levels offered the nose. The City Block packed more people into its limits than
+    any other in the Lower Ring, and not all of its residents were criminals. </p>        
+    <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0014.png\"
+    alt=\"Picture #14\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"14\" id=\"14\"/><p>Loongkau was a haven for the
+    very poor. People with nowhere else to go squatted here and applied their industries,
+    eking out livings as garbage piekers, \u201Cfell-off-the-wagon\u201D marketeers,
+    unlieensed doetors, dodgy snaek vendors, and the like. They were ordinary Earth
+    Kingdom eitizens trying to get by on the margins of the law. Her folk, essentially.
+    </p><p>The shadowed eonflnes of the City Bloek were also home to a more violent
+    sort, evolving gangs of the Lower Ring whose memberships were swelling from the
+    influx of  daofei.  Bandits who eould no longer hold territory in the countryside
+    were fleeing for the cover of Ba Sing Se and other large cities, blending in
+    with the populace, hiding among the same refuge-seeking citizens they\u2019d
+    brutalized in years past. </p><p>Those were not Kyoshi\u2019s folk. In fact,
+    many of them were running from her.  But given it was just as likely for an apartment
+    to be holding scared residents who had nothing to do with her quarry, Kyoshi
+    was keeping her movements in check. Garden-variety earthbending that ripped up
+    huge chunks of the surroundings would cause a dangerous collapse and harm innocents.
+    </p><p>The interior opened into a small market area. She passed a room full of
+    barrels leaking bright ink over the floor\u2014a home dying operation\u2014and
+    an empty butcher stall clouded with buzzing ant flies. Jianzhu\u2019s study had
+    contained his notes on the political and economic situation of Ba Sing Se, and
+    the small reference to the City Block noted how enterprising its residents were.
+    Curiously, it also mentioned that the land it was built on held some value due
+    to its prominent location in the Lower Ring. Merchants in the Middle Ring had
+    tried to purchase the block in the past and evict the residents, but the dangers
+    of the gangs had always made such projects fail. </p><p>Kyoshi paused near a
+    vat of spoiled mango pomace. This was her spot. She bent an assortment of rock
+    debris into a small circle and stood on it. She crossed her arms over her chest
+    to make the smallest cross section possible. </p><p>Before she went, though,
+    she noticed a tiny object in the comer. It was a toy, a doll made of rags scavenged
+    from a fine lady\u2019s dress. Someone in the block had gone through great effort
+    to sew a doll made of fabric from the Upper Ring for their child. </p><p>Kyoshi
+    stared at it until she blinked, remembering why she was here. She stamped down
+    with her foot. </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0015.png\" alt=\"Picture #15\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"15\"
+    id=\"15\"/><p>Her little platform of earth, held together by her bending, turned
+    as hard as the point of an auger. It burst through the clay tiles and rotting
+    struts of wood, dropping her fast enough to make her guts lurch. She plunged
+    through the floor and into the next level down, before doing it again, and again.
+    </p><p>Jianzhu\u2019s tactical manuals noted that in enclosed fights most casualties
+    happened at doorways and stairs. Kyoshi had decided to skip over those parts
+    of the building and bore her own passage. She counted fourteen stories \u2014more
+    than she\u2019d estimated\u2014until she came crashing through the ceiling of
+    a room that was solid earth underneath. The bottom of Loongkau. </p><p>Kyoshi
+    stepped off her platform, dust and crumbs of masonry cascading off her arms,
+    and looked around. There were no walls in here, only supporting columns that
+    propped up the great weight of the levels above.  So the City Block has a ballroom, 
+    she thought wryly. The empty expanse was similar to the entertaining halls of
+    wealthy nobles like Lu Beifong. There was a space like this in the Avatar\u2019s
+    mansion in Yokoya. </p><p>She could see all the way to the far end since the
+    walls held lumps of glowing crystal, as if the light for the entire building
+    had been hoarded for this room. There was a desk, a wooden island in the emptiness.
+    And behind the desk was a man who hadn\u2019t given up his pretensions since
+    Kyoshi had last seen him. </p><p>\u201CHello, Uncle Mok,\u201D Kyoshi said. \u201CIt\u2019s
+    been a while, hasn\u2019t it?\u201D </p><p>Mok, the former second-in-command
+    of the Yellow Neck  daofei, goggled his eyes in surprise. Kyoshi was like a curse
+    he couldn\u2019t shake. \u201CYou!\u201D he fumed, shrinking slightly behind
+    the furniture as if it could protect him. \u201CWhat are you doing here!?\u201D
+    </p><p>\u201CI heard rumors about a new boss settling into Loongkau and thought
+    he sounded very familiar. So I came to investigate. I heard this group is calling
+    itself a Triangle now? Do I have that right? Something with three sides.\u201D
+    Kyoshi found it hard to keep track. The  daofei  who were funneling into the
+    cities brought their grandiose customs of secrecy and tradition into the realm
+    of urban petty crimes. </p><p>\u201CThe Triad of the Golden Wing!\u201D he yelled,
+    infuriated by her disinterest in his rituals. But Kyoshi was long past caring
+    about the feelings of men like Mok. He could throw whatever tantrum he desired.
+    </p>         <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0016.png\"
+    alt=\"Picture #16\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"16\" id=\"16\"/><p>The drumming of feet grew
+    louder. The men Kyoshi had bypassed on the middle floors eame filing into the
+    room, surrounding her. They brandished axes and eleavers and daggers. Mok\u2019s
+    men had preferred outlandish weapons when they still roamed the countryside,
+    but here in the city they\u2019d abandoned the nine-ring swords and meteor hammers
+    for simpler arms that could be hidden in a crowd. </p><p>Bolstered by more than
+    two dozen men, Mok turned calmer. \u201CWell, girl, what is it you want? Besides
+    checking in on your elders?\u201D </p><p>\u201CI want you all to surrender your
+    weapons, vacate the premises, and march yourselves to a magistrate\u2019s courthouse
+    for judgment. The nearest one is seven blocks from here.\u201D </p><p>Several
+    of the hatchet men burst out laughing. The corner of Mok\u2019s mouth turned
+    upward. Kyoshi might be the Avatar, but she was vastly outnumbered and trapped
+    in an enclosed space. \u201CWe refuse,\u201D he said with an exaggerated roll
+    of his hand. </p><p>\u201CAll right then. In that case, I only have one question.\u201D
+    Kyoshi cast her gaze around the room. \u201CAre you sure this is all of you?\u201D
+    </p><p>The Triad members glanced at each other. Mok\u2019s face swelled with
+    rage, reddening like a berry in the sun. </p><p>It wasn\u2019t insolence so much
+    as pragmatism, her instinct for tidiness and efficiency rising to the surface.
+    \u201CIf not, I can wait until everyone arrives,\u201D Kyoshi said. \u201CI don\u2019t
+    want to have to go back and check each floor.\u201D </p><p>\u201CTear her apart!\u201D
+    Mok screamed. </p><p>The hatchet men charged from all directions. Kyoshi drew
+    one of her fans. Two would have been a bit much. </p><p>Kyoshi stepped over the
+    groaning bodies. When one of the Triad members was too still, she nudged him
+    with her boot until she saw signs of breathing. </p><p>Mok\u2019s robe had blown
+    off in the scuffle. He managed to budge the chair he was sitting on a few inches
+    in flight before Kyoshi put her hand on his shoulder, pressing him back into
+    his seat. </p><p>\u201CNo need to get up yet. Uncle,\u201D she said. Past enmity
+    or not, he was still older than her. </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0017.png\" alt=\"Picture #17\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"17\"
+    id=\"17\"/><p>Mok roiled with an anger and fear that Kyoshi could feel through
+    her grip. \u201CSo, you\u2019re going to murder me in cold blood like you did
+    Xu. May you be ripped apart by thunderbolts and many knives for slaying your
+    sworn brothers.\u201D </p><p>Kyoshi found herself bothered, more than she should
+    have been, by Mok calling her a murderer. She and Xu Ping An had agreed to a
+    duel, and the man immediately tried to kill her. Once she\u2019d gained the upper
+    hand, she\u2019d given him a chance to yield. The former leader of the Yellow
+    Necks had amply demonstrated he was beyond saving. </p><p>And yet, during sleepless
+    nights, she thought about Xu. The vile man infected her thoughts when she could
+    have been dreaming of those she loved. She thought about Xu a great deal, his
+    weight in her hands, and how, at the end of their fight, she\u2019d  decided.
+    </p><p>Kyoshi cleared her head. \u201CAnything goes on the  lei tai,''  she said.
+    Justifying the act out loud was bitter, ineffective medicine that she forced
+    herself to swallow anyway. \u201CI\u2019m not going to kill you. You and your
+    men got a foothold inside the walls rather quickly for a gang of countryside
+    bandits who spent most of their history bullying farmers. You have a contact
+    in Ba Sing Se helping you, and I want to know who it is.\u201D </p><p>Mok stiffened
+    with purpose. True  daofei  never surrendered information to the authorities,
+    even if it would benefit them. \u201CThe day I squeal to you, girl, is the day
+    I\u2014 aieeeF\u2019\u2019 </p><p>Kyoshi reminded him that times had changed
+    since they first met with a crushing squeeze of her fingers. She dented the nerves
+    of his arm until the terms of their new relationship sunk in. </p><p>\u201CIt
+    was someone from the Middle Ring!\u201D Mok said, once he stopped squealing in
+    pain. \u201CWe used go-betweens; I don\u2019t know their name!\u201D </p><p>Kyoshi
+    let go and took a step back. She\u2019d been expecting him to name a Lower Ring
+    criminal, a local who\u2019d maybe sworn brotherhood to him in the past. The
+    Middle Ring was the domain of merchants and academics. Something didn\u2019t
+    add up here. </p><p>Mok clutched his shoulder and scrambled away from the desk.
+    \u201CWai!\u201D he shouted at a door behind him. \u201CNow!\u201D </p><p>In
+    her distraction, Kyoshi had forgotten the third leading brother of the former
+    Yellow Necks. The door burst open in an ambush before Kyoshi could react. </p>        
+    <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0018.png\"
+    alt=\"Picture #18\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"18\" id=\"18\"/><p>Brother Wai sprung out, knife
+    raised, a snarl on his lips. He wasn\u2019t wearing the leather strap that covered
+    his severed nose, and without it his gaunt face had a skull-like appearance.
+    Wai had been a fast, vicious man back in his Yellow Neck days, and he still was.
+    </p><p>But when he saw the intruder was Kyoshi, dressed in her full makeup and
+    regalia, he gasped and nearly halted in midair. Wai was one of the few witnesses
+    who\u2019d seen her in the Avatar State, and the experience had overawed the
+    spiritual man. He stepped back to give her space, nearly knocking his brother
+    over in his haste, and dropped to his knees. The knife that had been aimed at
+    Kyoshi a second before, he placed at her feet like an offering. </p><p>\u201COh
+    come on!\u201D Mok screamed as Wai bowed his head to the ground and prostrated 
+    him self before the Avatar. </p><p>Kyoshi stepped out of the City Block into
+    the street. The day had gotten brighter and hotter. A squad of peace officers,
+    uniformed guardsmen of Ba Sing Se, waited for her, lining in wings to the left
+    and right of the exit. The junior men who\u2019d never seen the Avatar before
+    stared at Kyoshi as she emerged from the darkness. One of them dropped his truncheon
+    and fumbled to pick it up. </p><p>Kyoshi walked past the rank-and-file guardsmen,
+    ignoring the whispers and barely acknowledging the bows, until she reached Captain
+    Li by the door. He was a sallow-faced man who\u2019d been on the job too long,
+    his retirement delayed by gambling debts. \u201CThe cordon is set,\u201D he said
+    to Kyoshi in a pipe-smoker\u2019s wheeze. \u201CNo trouble out here so far.\u201D
+    </p><p>Most of the Lower Ring citizens went about their business, ignoring the
+    presence of the law, but Kyoshi noticed a few people watching with fake disinterest,
+    probably spotters for other unsavory organizations. Working with Captain Li meant
+    flirting with a violation of Kyoshi\u2019s  daofei  oaths. She\u2019d sworn to
+    her elder sister Kirima under a blade held by her elder brother Wong never to
+    become a lackey of the law. </p><p>But Li had been her tool, her informant, not
+    the other way around. He\u2019d provided her the intelligence she needed to close
+    her unfinished business </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0019.png\" alt=\"Picture #19\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"19\"
+    id=\"19\"/><p>with Mok, and numbers for cleanup once she was done. \u201CIs the
+    building safe?\u201D Li asked, tilting his cap to dab at his forehead with his
+    cuff </p><p>\u201CThe Triad members are down and ready to be extricated,\u201D
+    Kyoshi said. \u201CYou should summon a doctor.\u201D </p><p>\u201CITl get right
+    on that,\u201D Li replied in a dull tone that let Kyoshi know how seriously he
+    took the suggestion. He put his fingers to his lips and whistled. \u201CAll right,
+    boys! Get the vermin out of there!\u201D </p><p>The guardsmen hustled into the
+    City Block, free to move fast after Kyoshi had swept the twists and nooks of
+    danger. She waited patiently to see the results of her work. The Triad of the
+    Golden Wing needed to be counted and catalogued in the light of day. Being hauled
+    away like dry goods would cause their mystique to blow away in the wind. Hopefully.
+    </p><p>She heard loud voices and the sound of a struggle emerging from the darkness
+    of Loongkau. Two officers dragged out a man who hadn\u2019t been among the Triads
+    who\u2019d attacked her. He was dressed poorly, but a pair of glasses fell from
+    his head. He had to have been a jeweler or a tailor to have invested in such
+    an expensive device. </p><p>A boot crushed the glasses into the dust before she
+    could say anything. With mounting horror, Kyoshi watched another set of officers
+    come out, hustling a woman by the back of her neck. She held a wailing child
+    in her arms. The man with bad vision heard the cries and began thrashing harder
+    in the guards\u2019 grasp. </p><p>These weren\u2019t Triad members. They were
+    one of the poor families who lived in the City Block. \u201CWhat are your men
+    doing?\u201D Kyoshi shouted at Li. </p><p>He looked confused at her question.
+    \u201CGetting rid of the bad element. Certain folks have been waiting to demolish
+    this eyesore for a long time.\u201D He turned hesitant, a haggler afraid to part
+    with too much of his money. \u201CDo . . . you want a cut? If you do, you have
+    to talk to my man in the Middle Ring.\u201D </p><p>The Middle Ring.  In a flash,
+    she understood. </p><p>Someone with big, lucrative plans for Loongkau wanted
+    the residents scrubbed from the city block but needed an excuse to do it. They\u2019d
+    let the Triads in first, to get the law and the Avatar involved, and then bribed
+    Captain Li to clear out innocent and criminal folk alike. </p><p>\u201CStop this!\u201D
+    Kyoshi said. \u201CStop this right now!\u201D </p>         <div style=\"width:
+    99.68627450980392%;\">         <img src=\"images/img_0020.png\" alt=\"Picture
+    #20\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"20\" id=\"20\"/><p>''Aiyaaa\u201D  Li lamented
+    without a speek of sineerity. \u201CI\u2019m sorry, Avatar, but I\u2019m aeting
+    within the confines of my duty. Rightfully, I can vacate these premises of criminals
+    as necessary.\u201D </p><p>\u201CMama!\u201D  It was the little girl\u2019s sobbing
+    that set Kyoshi over the edge. \u201CPapa!\u201D </p><p>Kyoshi drew her fans
+    and snapped them open. She raised clumps of earth from below the dusty top layer,
+    where the clay was still moist and malleable. Fist-sized clods shot forth, slamming
+    over the mouths and noses of Li and his officers, clamping over their skin like
+    muzzles. </p><p>The guards let go of the family and clawed at their faces, but
+    Kyoshi\u2019s earthbending was too strong to be resisted. Li sank to his knees,
+    his eyes goggling out. </p><p>They had time before they would suffocate to death.
+    Kyoshi put back her fans and slowly went to each guard in turn, yanking off their
+    headbands one by one, checking the square metal seals of the Earth King fastened
+    to the cloth. </p><p>The badges of every official in Ba Sing Se had identification
+    numbers engraved on them, a testament to the city\u2019s massive bureaucracy.
+    These men, despite the shrinking supply of air to their brains, could understand
+    the gesture of her taking their headbands and tucking them into her robes for
+    safekeeping. One visit to an administration hall, and she could learn their identities.
+    She could find them later. Most residents of Ba Sing Se had heard the rumors.
+    They\u2019d heard stories of what Avatar Kyoshi was, and what she did to people.
+    </p><p>Kyoshi saved Li for last. He\u2019d turned purple in the time she\u2019d
+    taken to make the rounds. After snatching his headband from under his cap, she
+    let the clay fall from his mouth, and the others\u2019 at the same time. Li\u2019s
+    squad dropped to the ground, gasping for breath. The captain landed on his side
+    and his inhalation rattled like dice in a cup. </p><p>She leaned over, but before
+    she could say anything, Li threw a name at her, hoping to buy clemency. He really
+    had no backbone. \u201CHis name is Wo! The man paying me is Minister Wo!\u201D
+    </p><p>Kyoshi needed to shut her eyes so her frustration wouldn\u2019t leak out.
+    There were probably a dozen Minister Wo\u2019s in Ba Sing Se. The name alone
+    was meaningless to her. The city was too big. The Earth Kingdom was too big.
+    She couldn\u2019t keep up with the corruption leaking from its holes. </p>        
+    <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0021.png\"
+    alt=\"Picture #21\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"21\" id=\"21\"/><p>She gathered her breath. \u201CHere
+    is what\u2019s going to happen, Captain,\u201D she said as calmly as she could.
+    \u201CYou are going to clear the block of the Triads and no one else. Then you
+    are going to find paper and brush. You will write me a full confession, detailing
+    this Wo person and every bribe you took from him. Every stroke of it the truth.
+    Do you hear me. Captain Li? I will check. I want you to pour your very spirit
+    into this confession.\u201D </p><p>He nodded. Kyoshi straightened up to see the
+    woman and her daughter looking at her with wide, frightened eyes. She started
+    to approach them, wanting to ask if they were hurt. </p><p>\u201CDon\u2019t touch
+    them!\u201D The man who\u2019d lost his glasses threw  him self between Kyoshi
+    and his family. With his near blindness, he wouldn\u2019t have seen her trying
+    to help. Or maybe he had, and decided she was a danger to his wife and child
+    anyway. </p><p>Farther away, around the edges of the cordon, more bystanders
+    had gathered. They whispered to each other, the seeds of fresh rumors taking
+    root in the soil. The Avatar had not only ripped apart the occupants of Loongkau,
+    but she\u2019d turned her insatiable wrath upon the officers of the Earth King\u2019s
+    justice as well. </p><p>The stares of the ordinary citizens and the terrified
+    family made Kyoshi\u2019s skin prickle with a feeling that corrupt men like Li
+    or Mok could never force on her. Shame. Shame for what she\u2019d done, shame
+    for what she was. </p><p>Her makeup covered the flush in her cheeks and camouflaged
+    the furrow in her brow. She gave Li one last meaningful tap and then walked away
+    from Loongkau as slowly as she\u2019d arrived, an impassive statue heading back
+    to the altar that gave it life. But really, underneath her paint, she was fleeing
+    the scene of her crime, her heart threatening to pound her chest into dust. </p>        
+    <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0022.png\"
+    alt=\"Picture #22\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"22\" id=\"22\"/><h3>THE INVITATION </h3><p>People
+    who complained about how long it took to travel across Ba Sing Se were usually
+    factoring in the congestion. That wasn\u2019t a problem for Kyoshi. Crowds tended
+    to part out of her way like grass before the breeze. </p><p>She had another shortcut
+    to exploit as well. It was possible to waterbend a makeshift raft upstream along
+    the drainage canals running from the Upper Ring all the way out to the Agrarian
+    Zone for irrigation. It was extremely fast, if you could stand the smell. </p><p>She
+    reached the Middle Ring by the evening. Despite the orderly layout and numbered
+    addresses, she struggled to find her direction in the uniformity of the white-painted
+    houses and green-tiled roofs. She took paths leading her over peaceful bridges
+    that spanned gently flowing canals, and along tea shops redolent with jasmine
+    blossoms and trees shedding their pale pink petals over the sidewalks. As a child
+    living in the gutters of Yokoya, Kyoshi used to imagine a paradise much like
+    the Middle Ring. Clean, quiet, and food at hand anywhere you looked. </p><p>Store
+    owners sweeping their floors would look up in surprise at her, but soon returned
+    to their business. She passed a gaggle of dark-robed students that stared and
+    elbowed each other to get a glimpse but didn\u2019t flee her gaze. People who
+    were comfortable with their station in life tended to have less fear. They couldn\u2019t
+    imagine danger in any form visiting their doorstep. </p><p>Kyoshi slipped out
+    of sight into a darkened side street. She opened an unmarked door with a key
+    she kept in her sash. The hallway she entered was as full of twists and stairs
+    as Loongkau, but much cleaner. It ended with a passageway into a plain second-story
+    apartment, furnished only with a bed and a desk. This room was one of several
+    properties around the Four Nations that Jianzhu had bequeathed her, and it served
+    as a safe room where she could sleep overnight when she didn\u2019t want to announce
+    her official </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0023.png\" alt=\"Picture #23\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"23\"
+    id=\"23\"/><p>presence with the Earth King\u2019s staff. She unbuckled her bracers
+    and peeled them off, tossing them on the bed as she crossed the floor. </p><p>She
+    sank into the chair and dumped the pilfered headbands on the desk, the badges
+    clattering over the surface like gambling winnings. She was more careful removing
+    her headdress. A breeze rustled her freed hair, coming from the window that gave
+    her an expansive sunset view of the Lower Ring in all its vastness and poverty,
+    the brown shacks and shanties stretching over the land like leather drying in
+    the sun. </p><p>It was an unusual layout for the apartment. Many Middle Ring
+    houses did not have views that faced the Lower Ring. The merchants and financiers
+    who lived in this district paid so they didn\u2019t have to look at unpleasantness.
+    </p><p>Her fingers moved on their own, organizing the badges into neat stacks.
+    A dull ache of exhaustion settled into her head. Today had added another complication
+    to the pile. She would need to plan another visit to Loongkau to make sure the
+    residents were safe within their homes. And she\u2019d have to follow up on Li\u2019s
+    information, or else the captain and his backers would know they could simply
+    wait until the Avatar had passed like a cloud overhead for them to resume their
+    corrupt activities. </p><p>She knew it was a losing battle. In the grand scheme
+    of things, singling out one dirty lawman in Ba Sing Se would have as much effect
+    as pulling a raindrop out of the ocean. Unless ... </p><p>Unless she made an
+    example of Li and whoever bribed him. She could hurt them so badly that word
+    would spread about what happens when the Avatar catches you exploiting the defenseless
+    for your own gain. </p><p>It would be quick. It would be efficient. It would
+    be brutal. </p><p>Jianzhu would have approved. </p><p>Kyoshi slammed her hands
+    against the desk, toppling the badges. She\u2019d slipped yet again into the
+    mindset of her deceased \u201Cbenefactor.\u201D She\u2019d heard his words in
+    her own voice, the two of them speaking with as much unity as the Avatars were
+    supposed to be able to do with their past lives. </p><p>She opened a drawer and
+    pulled out a hand towel that had been resting in a small bowl of special liniment.
+    Kyoshi dragged the moistened cloth hard down the side of her face, trying to
+    wipe away the deeper stains along with her makeup. </p><p>A shudder of revulsion
+    ran up Kyoshi\u2019s back when she thought of how she\u2019d smothered Li with
+    the exact same technique Jianzhu had once used on </p>         <div style=\"width:
+    99.68627450980392%;\">         <img src=\"images/img_0024.png\" alt=\"Picture
+    #24\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"24\" id=\"24\"/><p>her. She should have abhorred
+    it, knowing exaetly what it felt like to die slowly as your lungs caved in on
+    themselves. In dealing with Li, she\u2019d slipped as easily into Jianzhu\u2019s
+    skin as she had her clothes. </p><p>The ones that had  also  been a gift from
+    him. </p><p>She slammed her fist on the desk again and heard part of the joinery
+    crack. It felt like every step she took as the Avatar was in the wrong direction.
+    Kelsang would never have entertained violence as policy. He would have worked
+    to improve the fortunes of the Loongkau and Lower Ring residents so they could
+    push back against Triad domination and Middle Ring exploitation. He would have
+    acted as their voice. </p><p>That was what Kyoshi had to do. In essence, it was
+    what Kelsang had done for her, the abandoned child he found in Yokoya. It was
+    the right course of action and would be the most effective in the long run. </p><p>It
+    would just take time. A very . . . very long time. </p><p>A knock came from outside.
+    \u201CCome in,\u201D she said. </p><p>A young man wearing the billowing orange
+    and yellow robes of an Air Nomad opened the door. \u201CAre you all right. Avatar
+    Kyoshi?\u201D Monk Jinpa said. \u201CI heard a loud noise and \u2014aaghT </p><p>The
+    stack of letters he was holding went flying into the air. Kyoshi whipped her
+    hand around and around in a circle of air-bending, corralling the papers with
+    a miniature tornado. Jinpa recovered from his surprise and caught the pile of
+    letters from the bottom of the vortex up, re-creating the stack, but with the
+    corners sticking out at all angles. </p><p>\u201CApologies, Avatar,\u201D he
+    said when he\u2019d secured her correspondence once more. \u201CI was surprised
+    by your, uh . . .\u201D He gestured at his own face in lieu of pointing rudely
+    at hers. </p><p>She hadn\u2019t finished wiping off the rest of her makeup. She
+    probably looked like a doctor\u2019s illustration of a skull with the skin halfway
+    stripped. Kyoshi grabbed the towel to finish the job. \u201CDon\u2019t worry
+    about it,\u201D she said as she worked the cloth along the corner of her eye,
+    taking care not to get the compound that would dissolve the paint into it. </p><p>In
+    defiance of her order, Jinpa still looked worried. \u201CYou\u2019re also bleeding
+    from your neck.\u201D </p><p>Yes. Right. With her free hand she opened a fan
+    and aimed the leaf at the garrote wound around her throat. The shards of glass
+    in her skin plucked themselves out under the force of her earthbending and balled
+    into a </p>         <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0025.png\"
+    alt=\"Picture #25\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"25\" id=\"25\"/><p>floating clump that dropped
+    to the floor when she switched her foeus to a nearby piteher. </p><p>A tiny wriggle
+    of water snaked out of the vessel and wrapped itself around Kyoshi\u2019s neck.
+    It was cool and soothing against the itch of the wound, and she could feel her
+    skin knitting together. Jinpa watched her heal herself, both worried and horrified
+    by the crudeness of her self-administered first aid. </p><p>\u201CIsn\u2019t
+    healing water supposed to glow?\u201D he asked. </p><p>\u201CI\u2019ve never
+    managed it.\u201D The mansion\u2019s libraries in Yokoya were full of extensive
+    tomes about the medical uses of water-bending, but Kyoshi lacked time and a proper
+    teacher. She\u2019d read through as many of the texts as she eould anyway, and
+    the wounds she\u2019d been aecumulating as the Avatar gave her plenty of opportunities
+    to praetice on herself. </p><p>She\u2019d made a vow. No matter how limited her
+    knowledge was, or how flawed her teehnique, she would never again watch someone
+    she eared about slip away in front of her while she did nothing. </p><p>She tossed
+    the water baek in the pitcher and ran a finger over the marks left behind on
+    her neck.  At this rate I\u2019m going to look like Auntie Mui\u2019s latest
+    patchwork quilt.  She could hide the scar with more makeup or a higher collar.
+    But the mottled, healed burns on her hands, courtesy of Xu Ping An, reminded
+    her she was running out of body parts to injure and cover up. \u201CWhat are
+    the updates?\u201D </p><p>Jinpa took a seat and pulled out one of the many letters
+    addressed to the Avatar that he\u2019d already broken the seals on. He was allowed
+    the privilege. During her first visit to the Southern Air Temple as the Avatar,
+    he had helped her constantly with planning and communication, to the point where
+    his elders shrugged and officially assigned him to Kyoshi as her secretary. Without
+    his assistance, she would have been overwhelmed to the point of shutting down.
+    </p><p>\u201CGovernor Te humbly submits a report that Zigan Village has surpassed
+    its former peak population and ean now boast of a new school  and  herbal elinic,
+    both of which are free of charge to the poorest townsfolk,\u201D Jinpa read aloud.
+    \u201CHuh. The Te family\u2019s not known for generosity. I wonder what\u2019s
+    gotten into young Sihung reeently.\u201D </p><p>What indeed.  Te Sihung had been
+    the first offieial of the Earth Kingdom to learn Kyoshi was the Avatar, right
+    after she\u2019d deeided not to assassinate </p>         <div style=\"width:
+    99.68627450980392%;\">         <img src=\"images/img_0026.png\" alt=\"Picture
+    #26\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"26\" id=\"26\"/><p>him during a  daofei  raid
+    on his house. After her public revealing, she\u2019d made it clear to Te that
+    the life debt he owed her still applied and she\u2019d continue to watch him.
+    Knowing his power didn\u2019t make him immune to consequences seemed to have
+    bolstered both his compassion and skill as governor. </p><p>Good news was hard
+    to come by these days. \u201CWhat\u2019s next?\u201D she asked Jinpa, hoping
+    for more. </p><p>His lips pulled to the side. \u201CThe rest of the letters are
+    audience requests from nobles you\u2019ve already rejected or ignored.\u201D
+    </p><p>\u201CAll of them?\u201D She eyed the tall stack of papers and frowned.
+    Jinpa shrugged. \u201CYou reject and ignore a lot of nobles. Earth Kingdom folk
+    are nothing if not persistent.\u201D </p><p>Kyoshi fought the urge to set the
+    whole pile of correspondence ablaze. She didn\u2019t have to read every message
+    to know each one was a demand for the Avatar\u2019s favorable judgment on matters
+    of business, politics, and money. </p><p>She\u2019d learned after the first few
+    times. Kyoshi would accept an innocuous invitation to attend a banquet, preside
+    over a spiritual ceremony, bless a new canal or a bridge. Inevitably, her host,
+    the governor or the largest landowner\u2014oftentimes the same person\u2014^would
+    corner her into a side conversation and beg for assistance in material affairs
+    they would never have bothered Kuruk or Great Yangchen with. But Kyoshi was one
+    of their own, wasn\u2019t she? She understood how business was done in the Earth
+    Kingdom. </p><p>She did. It didn\u2019t mean she liked it. Sages who\u2019d vehemently
+    denied her Avatarhood despite Jianzhu\u2019s last will and testament, nobles
+    who claimed trickery after watching her twirl water and earth above her head
+    with their own eyes, suddenly became true believers when they thought she could
+    aid them in biting off greater mouthfuls of wealth and power in the endless hierarchies
+    of the Earth Kingdom. The Avatar could settle where a provincial border lay,
+    and which governor got to claim taxes from a rich cropland. The Avatar could
+    speed a trade fleet along its route safely, protecting the lives of the sailors,
+    but ultimately ensuring a massive profit for its merchant backers. Couldn\u2019t
+    she? </p><p>Kyoshi soon learned to ignore such requests and focus on what she
+    could wreak with her own hands. \u201CThose messages can wait,\u201D she said.
+    She </p>         <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0027.png\"
+    alt=\"Picture #27\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"27\" id=\"27\"/><p>secretly hoped the stack of
+    correspondence would blow away into dust if she sounded cold and authoritative
+    enough. </p><p>Jinpa gave her a gentle but chiding look. \u201CAvatar ... if
+    I may be permitted, you have to participate in high society to  some  extent.
+    You can\u2019t keep putting off the leadership of the Earth Kingdom forever.\u201D
+    </p><p>The Earth Kingdom doesn\u2019t have leadership,  Kyoshi thought. /  helped
+    kill the closest thing to a leader it had. </p><p>\u201CThe duties of your role
+    extend beyond being a powerful bender,\u201D he went on. \u201CYou\u2019ve scrubbed
+    the countryside of the largest bandit groups, and it\u2019s impressive you were
+    able to track down this Mok person and keep him from hurting more innocent people.
+    But at this point you\u2019re running yourself ragged simply so you can beat
+    up the same bad men you\u2019ve already beaten up in the past. Is scraping the
+    bottom of the criminal barrel truly the most good you could do for the Four Nations?
+    Not to mention the risks it poses to your personal safety.\u201D </p><p>\u201CIt\u2019s
+    what I know.\u201D  And it\u2019s the only way I can be sure what I\u2019m doing
+    is right. </p><p>They\u2019d had this conversation before, many times, but Jinpa
+    never grew tired of reminding her. Unlike the other Air Nomads she\u2019d met,
+    who prized detachment from the world, he was constantly pushing her to engage
+    in a higher level of discourse with the very people who sought to exploit her.
+    He wasn\u2019t much older than Kyoshi, slightly on the other side of twenty years,
+    so it was strange when he spoke like a political tutor trying to guide a wayward
+    pupil. </p><p>\u201CAt some point, you will have to stand upon a greater stage,\u201D
+    Jinpa said. \u201CThe Avatar creates ripples in the world, whether they mean
+    to or not.\u201D </p><p>\u201CIs that a saying among your mysterious friends
+    whom you won\u2019t tell me about?\u201D she retorted. </p><p>He merely shrugged
+    at her clumsy attempt to change the subject. That was the other frustrating thing
+    about Jinpa. He wouldn\u2019t trade jabs with her like Kirima or Wong. He showed
+    her too much respect, a problem her old companions never had, even after learning
+    she was the Avatar. </p><p>She wondered what would happen if the monk ever met
+    the remaining members of the Flying Opera Company. She could imagine Jinpa offering
+    them assistance in escaping the  daofei  lifestyle. They probably would have
+    tried to steal his bison. </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0028.png\" alt=\"Picture #28\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"28\"
+    id=\"28\"/><p>There was only one thing that could get her to talk to the sages.
+    \u201CNone of the letters mentioned\u2014\u201D </p><p>\u201CMaster Yun? No,
+    unfortunately. He has yet to turn up.\u201D </p><p>Kyoshi exhaled, a long hiss
+    through her teeth. During the period where the world thought Yun was the Avatar,
+    he had focused a great deal of effort on treating with the Earth Kingdom\u2019s
+    elite. Which meant they were the only people who knew his face. Without a lead
+    from someone who recognized him, finding one man in the entirety of the Earth
+    Kingdom was like looking for a single pebble in a gravel pit. \u201CEet\u2019s
+    try bumping up the reward again.\u201D </p><p>\u201CI don\u2019t know if that\u2019ll
+    help,\u201D Jinpa said. \u201CThe prominent figures of the Earth Kingdom lost
+    a lot of face as a result of Master Yun\u2019s misidentiflcation. If I were them,
+    I wouldn\u2019t want him to resurface. I would want to pretend the whole episode
+    never happened. I hear Eu Beifong forbids anyone in his household, guests included,
+    to speak of Jianzhu or his disciple.\u201D </p><p>Jinpa had a strange amount
+    of access to political gossip for a simple Air Nomad, but his observations were
+    usually correct.  That blastedpricklethorn Lu.  As Jianzhu\u2019s backer, the
+    Beifong patriarch was just as guilty in Kyoshi\u2019s eyes for the mistake in
+    identifying the Avatar, and he continued to cast off any further responsibility
+    in the matter. </p><p>She\u2019d begged Eu Beifong in person to help her find
+    Yun, expecting the old man to have some semblance of grandfatherly attachment
+    to him. Instead Eu coldly revealed that the letter Jianzhu had sent to sages
+    across the Earth Kingdom proclaiming Kyoshi to be the Avatar also said Yun was
+    dead. Between Jianzhu\u2019s final words and Kyoshi\u2019s confused testimony
+    of the incident in Qinchao, Eu chose to believe what was most convenient for
+    him. As far as he was concerned, the scandal had resolved itself A victory for
+    neutral  jing. </p><p>Jinpa gave her a smile out of sympathy. \u201CNo one\u2019s
+    asking you to give up your search for the false Avatar, but maybe\u2014\u201D
+    </p><p>\u201CDon\u2019t call him that! \u201D </p><p>Her rebuke echoed through
+    the room. Thinking about how easily Yun had been abandoned, first by Jianzhu,
+    then by Eu and the rest of the Earth Kingdom, had set her back on edge. Jinpa
+    avoided her gaze, lowering his head. In the awkward silence he wiggled his foot
+    nervously. She didn\u2019t need bending to feel the tremors through the floor.
+    </p>         <div style=\"width: 99.68627450980392%;\">         <img src=\"images/img_0029.png\"
+    alt=\"Picture #29\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"29\" id=\"29\"/><p>\u201CI\u2019ll send word
+    of Master Yun\u2019s description to every major passportchecking waystation I
+    can,\u201D he said. \u201CIt\u2019s the job of such officials to match names
+    and appearances. They\u2019ll be paying closer attention than your average bystander.\u201D
+    </p><p>It was a good idea. Better than any she\u2019d had so far. She felt doubly
+    bad for losing her temper. She needed to apologize for her outburst, needed to
+    stop having such outbursts if she and Jinpa were to ever shorten the distance
+    between them. </p><p>But she was fearful of what lay at the end of friendships.
+    She had been a danger to every companion she ever had. And she still couldn\u2019t
+    shake the memories of an Air Nomad who gave her jokes and warmth and easy smiles.
+    </p><p>\u201CMake it happen,\u201D Kyoshi said curtly. </p><p>Jinpa nodded. Then
+    he paused, as if wondering how to frame his next statement. \u201CI didn\u2019t
+    open all of today\u2019s letters. One of them came by special courier.\u201D
+    </p><p>\u201CHalf the letters we get are by \u2018special courier,\u201D\u2019
+    Kyoshi scoffed. Grandiose deliveries with envelopes stamped with  Urgent  and 
+    For the Avatar s Eyes Only  in loud green ink were common tricks the Earth Sages
+    tried, in order to grab her attention. </p><p>\u201CThis one is genuinely special.\u201D
+    Jinpa reached into his robe and pulled out a message tube he\u2019d been safekeeping.
+    </p><p>It was red. </p><p>The sturdy metal tube was end-capped with gilded flames.
+    In the surroundings of the staid but clearly Earth Kingdom furnishings of the
+    apartment, the scroll case looked like an ember in a forest, threatening to catch.
+    An army of wax seals guarded the seams. </p><p>Jinpa passed it to her with both
+    hands like an object of reverence. \u201CI believe this is from Fire Ford Zoryu
+    himself.\u201D </p><p>Her first direct correspondence from a head of state. Kyoshi
+    had never met the Fire Ford, nor had he ever written her before. The only contact
+    she\u2019d had with the Fire Nation government was the envoy who\u2019d visited
+    her in Yokoya soon after the news broke of her Avatarhood. The sharply dressed
+    minister had watched her raise a modicum of all four elements, nodding to himself
+    as each one was checked off in turn. He\u2019d saluted Kyoshi, politely stayed
+    for dinner, and then left for his homeland the next </p>         <div style=\"width:
+    99.68627450980392%;\">         <img src=\"images/img_0030.png\" alt=\"Picture
+    #30\"/>         </div>         <span xmlns:epub=\"http://www.idpf.org/2007/ops\"
+    epub:type=\"pagebreak\" title=\"30\" id=\"30\"/><p>morning to report the new
+    state of affairs. She remembered appreeiating the lack of grief the foreign delegate
+    gave her in comparison to her own countrymen. </p><p>Breaking the seals and opening
+    the case felt like damaging a historical artifact. Kyoshi kept as much of the
+    wax\u2019s original shape as she could and unfurled the scroll inside. </p><p>The
+    writing was direct and to the point, devoid of the flourishes Earth Kingdom officials
+    thought were necessary to curry favor with her. Lord Zoryu needed the Avatar\u2019s
+    assistance on a matter of national importance. If she would come visit the royal
+    palace as his honored guest to celebrate the upcoming Festival of Szeto, a significant
+    holiday in the Fire Islands, he could explain further in person. </p><p>\u201CWhat
+    does it say?\u201D Jinpa asked. </p><p>\u201CIt\u2019s an invitation to visit
+    the Fire Nation.\u201D A debut on the world stage. She swallowed the nervousness
+    that had suddenly clumped in her throat. </p><p>Jinpa saw her hesitation and
+    clasped his hands together, beseeching. \u201CThis is exactly what I\u2019m talking
+    about. Avatar. The Four Nations aren\u2019t going to let you remain out of the
+    public eye forever. Please don\u2019t tell me you\u2019d snub the Fire Lord,
+    of all people.\u201D </p><p>Kyoshi mulled it over. She doubted the ruler of the
+    Fire Nation would waste her time with a frivolous request for help. And her frustrations
+    with her own country were threatening to push her past her breaking point. A
+    change of scenery might be called for. </p><p>\u201CAnd it\u2019s a holiday festival,\u201D
+    Jinpa added. \u201CYou might even have fun. You  are  allowed to enjoy yourself
+    from time to time, you know.\u201D </p><p>Leave it to an Air Nomad to fall back
+    on fun as the last argument. \u201CYou can write back and tell the Fire Lord
+    I am honored to accept his invitation,\u201D she said. \u201CWe\u2019ll start
+    planning the trip tomorrow. I don\u2019t think I can handle any more business
+    for today.\u201D </p><p>Jinpa bowed solemnly, hiding his satisfaction that finally
+    the Avatar was stepping up to her responsibilities. \u201CNo one needs their
+    rest more than the Avatar.\u201D He left the room for the office they\u2019d
+    set up down the hall. </p><p>Alone, Kyoshi stared at the cream-colored paper
+    in silence. She hadn\u2019t mentioned to Jinpa the portion of the letter that
+    tipped the scales in favor of the visit. </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0031.png\" alt=\"Picture #31\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"31\"
+    id=\"31\"/><p>It was a very specific piece of news at the end of the Fire Lord\u2019s
+    message. The former Headmistress of the Royal Academy had returned home after
+    a long convalescence in Agna Qel\u2019a, the capital of the Northern Water Tribe.
+    So had her daughter. Perhaps the Avatar would like to see them, given the three
+    had been acquaintances in Yokoya? They certainly wished to see her. </p><p>Acquaintances. 
+    Kyoshi didn\u2019t know it was possible to feel such relief and distress at once.
+    She wasn\u2019t in the Fire Nation yet and already she could picture who was
+    waiting for her, the walking blaze of pure heat and confrontation. In the darkness
+    of her exhaustion, a point of shining light beckoned. </p><p>Rangi. </p><p>Kyoshi
+    carefully folded the paper and tucked it into her robes, close to her thumping
+    heart. Despite her secretary\u2019s wishes, she was not going to be getting much
+    sleep tonight. </p>         <div style=\"width: 99.68627450980392%;\">        
+    <img src=\"images/img_0032.png\" alt=\"Picture #32\"/>         </div>        
+    <span xmlns:epub=\"http://www.idpf.org/2007/ops\" epub:type=\"pagebreak\" title=\"32\"
+    id=\"32\"/></body> </html>"
+  pages: []
+--- !u!1 &774922431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 774922432}
+  - component: {fileID: 774922435}
+  - component: {fileID: 774922434}
+  - component: {fileID: 774922436}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &774922432
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774922431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1563657891}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -24.999874}
+  m_SizeDelta: {x: -100, y: -150.00024}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &774922434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774922431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<color=red>r\xF6d</color>sss\n\n<size=99>Kyoshi Novels (2019-)</size>
+    \n    <p dir=\"ltr\" class=\"center bold\">Nickelodeon</p>\r\n    <div class=\"offset\"><p
+    dir=\"ltr\">This book was produced in EPUB format by the Internet Archive.</p>
+    <p dir=\"ltr\">The book pages were scanned and converted to EPUB format automatically.
+    This process relies on optical character recognition, and is somewhat susceptible
+    to errors. The book may not offer the correct reading sequence, and there may
+    be weird characters, non-words, and incorrect guesses at structure. Some page
+    numbers and headers or footers may remain from the scanned page. The process
+    which identifies images might have found stray marks on the page which are not
+    actually images from the book. The hidden page numbering which may be available
+    to your ereader corresponds to the numbered pages in the print edition, but is
+    not an exact match;  page numbers will increment at the same rate as the corresponding
+    print edition, but we may have started numbering before the print book's visible
+    page numbers.  The Internet Archive is working to improve the scanning process
+    and resulting books, but in the meantime, we hope that this book will be useful
+    to you.</p> \n\n<p dir=\"ltr\">The Internet Archive was founded in 1996 to build
+    an Internet library and to promote universal access to all knowledge. The Archive's
+    purposes include offering permanent access for researchers, historians, scholars,
+    people with disabilities, and the general public to historical collections that
+    exist in digital format. The Internet Archive includes texts, audio, moving images,
+    and software as well as archived web pages, and provides specialized services
+    for information access for the blind and other persons with disabilities.</p>\n\n<p>Created
+    with abbyy2epub (v.1.7.6)</p></div>\r\n  </body>\r\n</html>\r\n\n\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4291546086
+  m_fontColor: {r: 0.9019608, g: 0.79607844, b: 0.79607844, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 54.1
+  m_fontSizeBase: 54.1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &774922435
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774922431}
+  m_CullTransparentMesh: 1
+--- !u!114 &774922436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774922431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4d2b188f50df4b299eb714ef4360ee9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &813049253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813049254}
+  - component: {fileID: 813049257}
+  - component: {fileID: 813049256}
+  - component: {fileID: 813049255}
+  m_Layer: 5
+  m_Name: Button (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &813049254
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813049253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1023521459}
+  m_Father: {fileID: 1563657891}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &813049255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813049253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 813049256}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519420033}
+        m_TargetAssemblyTypeName: Ebook, Assembly-CSharp
+        m_MethodName: PageBackward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &813049256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813049253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &813049257
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813049253}
+  m_CullTransparentMesh: 1
+--- !u!1 &1023521458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1023521459}
+  - component: {fileID: 1023521461}
+  - component: {fileID: 1023521460}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1023521459
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023521458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 813049254}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1023521460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023521458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1023521461
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023521458}
+  m_CullTransparentMesh: 1
+--- !u!1 &1084292110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1084292111}
+  - component: {fileID: 1084292114}
+  - component: {fileID: 1084292113}
+  - component: {fileID: 1084292112}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1084292111
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084292110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 419387520}
+  m_Father: {fileID: 1563657891}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1084292112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084292110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1084292113}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519420033}
+        m_TargetAssemblyTypeName: Ebook, Assembly-CSharp
+        m_MethodName: PageForward
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1084292113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084292110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1084292114
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084292110}
+  m_CullTransparentMesh: 1
+--- !u!1 &1563657890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563657891}
+  - component: {fileID: 1563657894}
+  - component: {fileID: 1563657893}
+  - component: {fileID: 1563657892}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1563657891
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563657890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 774922432}
+  - {fileID: 1084292111}
+  - {fileID: 813049254}
+  m_Father: {fileID: 519420032}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1563657892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563657890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1563657893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563657890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1563657894
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563657890}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &1885756546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1885756549}
+  - component: {fileID: 1885756548}
+  - component: {fileID: 1885756547}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1885756547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885756546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1885756548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885756546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1885756549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885756546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
